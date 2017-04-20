@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# A script that reads in a file and a integer that determines the maximum
+# A script that reads in a file and an integer that determines the maximum
 # line length, and then pretty-prints the file by distributing the words
 # to lines as evenly as possible. It utilizes dynamic programming and
 # runs in O(n^3) time.
@@ -12,7 +12,7 @@ import numpy as np
 
 def justify(words, L):
     """
-    Require: An list containing words and an integer L that determines the
+    Require: A list containing words and an integer L that determines the
              maximum length.
 
     Ensure: A partition of words
